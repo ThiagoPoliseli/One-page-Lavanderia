@@ -3,8 +3,7 @@ function openModal(modalId) {
         modal.style.display = "flex"; // Torna o modal visível
         modal.style.justifyContent = "center"; // Centraliza o conteúdo
         
-        
-        window.scrollTo({ top: modal.offsetCenter, behavior: "smooth" });
+        modal.scrollIntoView({ behavior: "smooth", block: "center" });
 }
 
     function closeModal(modalId) {
