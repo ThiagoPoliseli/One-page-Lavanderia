@@ -4,7 +4,7 @@ function openModal(modalId) {
         modal.style.justifyContent = "center"; // Centraliza o conteúdo
         
         modal.scrollIntoView({ behavior: "smooth", block: "center" });
-         window.scrollTo({ top: modal.offsetTop, behavior: "smooth" });
+         window.scrollTo({ top: modal.offsetCenter, behavior: "smooth" });
 }
 
     function closeModal(modalId) {
