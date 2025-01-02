@@ -1,6 +1,9 @@
 function openModal(modalId) {
         const modal = document.getElementById(modalId);
         modal.style.display = "flex"; // Torna o modal visível
+        modal.style.justifyContent = "center"; // Centraliza o conteúdo
+        
+        modal.scrollIntoView({ behavior: "smooth", block: "center" });
 }
 
     function closeModal(modalId) {
